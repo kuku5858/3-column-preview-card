@@ -1,0 +1,125 @@
+body {
+  font-size: 15px;
+  background-color: hsl(0, 0%, 95%);
+
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  line-height: 2;
+  padding-bottom: 20px;
+}
+
+button {
+  border-radius: 25px;
+  background-color: hsl(0, 0%, 95%);
+	display:inline-block;
+  padding:8px 20px;
+	text-decoration:none;
+  font-size:15px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+h3 {
+  color: White;
+  font-family: 'Big Shoulders Display', cursive;
+  padding: 15px 0;
+}
+
+.common {
+  padding: 50px;
+}
+
+img {
+  padding-bottom: 15px;
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.btn-sed {
+  border: 2px solid hsl(31, 77%, 52%);
+  color: hsl(31, 77%, 52%);
+}
+
+.btn-sed:hover {
+  border: 2px solid hsl(0, 0%, 95%);
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.btn-suv {
+  border: 2px solid hsl(184, 100%, 22%);
+  color: hsl(184, 100%, 22%);
+}
+
+.btn-suv:hover {
+  border: 2px solid hsl(0, 0%, 95%);
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.btn-lux {
+  border: 2px solid hsl(179, 100%, 13%);
+  color: hslhsl(179, 100%, 13%);
+}
+
+.btn-lux:hover {
+  border: 2px solid hsl(0, 0%, 95%);
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+}
+
+.attribution {
+  font-size: 12px;
+  color: gray;
+  text-align: center;
+}
+
+.attribution a{
+  text-decoration: none;
+  color: darkgray;
+}
+
+.attribution a:hover{
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 1030px) {
+
+  .sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0;
+  }
+
+  .luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 0;
+  }
+
+}
